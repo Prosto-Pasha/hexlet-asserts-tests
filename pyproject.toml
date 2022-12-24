@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hexlet-asserts-tests"
+version = "0.1.0"
+description = ""
+authors = ["Pavel Belyavskiy <prostopasha@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hexlet_asserts_tests"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
